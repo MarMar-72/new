@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Мой сайт - Главная</title>
+		<link rel="stylesheet" href="My_style.css">
+		<link rel="icon" href="Images/fav.png">
+    </head>
+	
+    <body>
+        <h1 class = "header" > Чернова Мария Александровна
+		</h1>
+        <h2 class="obomne">Написать мне</h2>
+        <b id="kot">Введите ваше имя:</b><br>
+        <form>
+            Имя: <br>
+            <input type="text" name="Firstname" id="Firstname"><br>
+            Фамилия: <br>
+            <input type="text" name="Secondname" id="Secondname"><br>
+            <b>Выберете ваш почтовый ящик</b><br>
+            <input type="radio" name="pochta" value="yandex">Яндекс почта<br>
+            <input type="radio" name="pochta" value="mail">Почта маил<br>
+            <input type="radio" name="pochta" value="rambler">Рамблер почта<br>
+            <b>Введите номер телефона</b>
+            <input type="tel" name="tel" id="tel1" placeholder="+79112230123" required="" autocapitalize="off" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"><br>
+            <b>Как к вам обращаться?</b><br>
+            <div class="tester">
+            <input class="test" type="radio" name="chel" value="man">Уважаемый
+            <input class="test" type="radio" name="chel" value="girl">Уважаемая
+            </div>
+            <b>Тематика письма</b>
+            <select name="tema">
+                <option value="1">Жалоба</option>
+                <option value="2">Предложение</option>
+                <option value="3">Дружба</option>
+                <option value="4">Совместный проект</option>
+                <option value="5">Другая</option>
+            </select><br>
+            <b>Ваше сообщение</b><br>
+            <textarea rows="4" cols="30">
+    
+            </textarea>
+            <br>
+            <input type="file"><br>
+            <br>
+            <input type="checkbox" name="base">Согласие на обработку данных<br>
+            <input type="submit">
+
+        </form>
+        <br>
+        <nav class="menu"> <ul>
+                <a class="link" href="index.html" style="padding: 10px 15px;">Главная</a>
+                <a class="link" href="Interests.html" style="padding: 10px 15px;">Увлечения</a>
+                <a class="link" href="contacts.html" style="padding: 10px 15px;">Контакты</a>
+                </ul>
+                </nav>
+
+            <h1 class="podval">
+            <p class="linkvk">Ссылка на вк: <a href="https://vk.com/hleb_cat"><img src="Images/vk-knopka.png"  style="vertical-align: middle" width="50" height="50" alt="кнопка"></a>
+            <!-- <button><img src="Images/vk-knopka.png"  style="vertical-align: middle" width="50" height="50" alt="кнопка"><a href="https://vk.com/hleb_cat">Вк</a></button> -->
+            </h1>
+    </body>
+
+
+</html>
